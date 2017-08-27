@@ -119,3 +119,48 @@ ul {
 .service-image img {
   width: 3.5rem;
 }
+
+/* Business Info Section Styles */
+
+.business-info {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+}
+
+.info {
+  width: 35%;
+  margin-right: 5%;
+}
+
+.info .title {
+  display: block;
+  padding: 0.5rem 1.25rem;
+  background-color: cadetblue;
+  width: 10rem;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.info p {
+  padding: 1rem 0;
+}
+
+/* Footer Styles */
+
+footer {
+  margin-top: 5rem;
+}
+
+.logo-footer {
+  display: flex;
+  align-items: center;
+  background-color: azure;
+  padding: 4rem;
+}
+
+.logo-footer img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
