@@ -164,3 +164,35 @@ footer {
   height: 1.5rem;
   margin-right: 1rem;
 }
+
+/* =================================
+  Media Queries
+==================================== */
+
+/* Screen width > than 768 pixels and < than 1024 pixels */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+  /* Header Styles */
+
+  header {
+    height: 22rem;
+    padding-top: 0;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  /* Banner Section Styles */
+
+  .main-banner {
+    top: 5rem;
+    margin-right: 2rem;
+    padding: 0.375rem 4rem;
+  }
+
+  h1 {
+    font-size: 1.33rem;
+  }
+}
