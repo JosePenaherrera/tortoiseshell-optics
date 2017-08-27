@@ -77,6 +77,10 @@ ul {
   padding: 0 1rem;
 }
 
+.mobile-nav {
+  display: none;
+}
+
 /* Banner Section Styles */
 
 .flex {
@@ -195,4 +199,49 @@ footer {
   h1 {
     font-size: 1.33rem;
   }
+}
+
+/* Screen width > than 320 pixels and < than 480 pixels */
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+  /* Header Styles */
+
+  header {
+    height: 17rem;
+    background-position: 20%;
+    padding-top: 0;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  /* Navigation Styles */
+
+  nav span,
+  .main-nav {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+    text-align: center;
+    padding: 0 1rem;
+  }
+
+  /* Banner Section Styles */
+
+  .main-banner {
+    width: 100%;
+    top: 9rem;
+    padding: 0.5rem 0;
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 1rem;
+    text-align: center;
+  }
+
 }
